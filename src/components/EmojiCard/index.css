@@ -1,0 +1,18 @@
+/* Write your code here. */
+.emoji-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 32%;
+  height: 200px;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 100px;
+}
