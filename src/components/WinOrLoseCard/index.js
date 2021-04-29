@@ -8,10 +8,10 @@ const wonUrl = 'https://assets.ccbp.in/frontend/react-js/won-game-img.png'
 
 class WinOrLossCard extends Component {
   render() {
-    const {won, replayEmojis, totalScore} = this.props
-    const gameResult = won ? 'You Won' : 'You Lose'
-    const scoreStatus = won ? 'Best Score' : 'Score'
-    const imgUrl = won ? wonUrl : loseUrl
+    const {win, replayEmojis, totalScore} = this.props
+    const gameResult = win ? 'You Won' : 'You Lose'
+    const scoreStatus = win ? 'Best Score' : 'Score'
+    const imgUrl = win ? wonUrl : loseUrl
 
     return (
       <div className="win-loss-cont">
